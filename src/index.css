@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App{
+  display: flex;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  gap: 2px;
+  /* justify-content: space-between;
+*/
+}
+.schools{
+  margin-bottom: 80px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.content{
+  flex-basis: 70%;
+  background-color: #002147;
+  color:#fff;
+}
+
+.profile-section{
+  background-color: #ff5733;
+  flex-basis: 25%;
+  font-size: 0.8rem;
+  color: #fff;
+  padding-top:10px;
+}
+
+.contact-details{
+  margin: 72px 0 ;
+  background-color: #002147;
+  padding: 10px 0;
+ 
+
+}
+
+.skillset{
+  margin-bottom: 80px;
+  padding: 5px;
+  background-color: #002147;
+}
+
+.hobbies{
+  background-color: #002147;
+  padding:5px;
+}
+
+.hobbies ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+  li{
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+
+  .apple{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .google{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .design-studio{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .masters{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+  }
+
+  .bachelor{
+    display: flex;
+    justify-content: space-evenly;
+  }
+.schools{
+  /* background-color: #ff5733; */
+  padding: 10px 0;
+}
+
+.experieces{
+  margin-top: 40px;
+}
+
+.connect_ref{
+  display: flex;
+  justify-content: space-around;
+  margin: 168px 0 0 0;
+  background-color: #ff5733;
 }
